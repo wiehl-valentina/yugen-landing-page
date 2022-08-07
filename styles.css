@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --light-color: #56AFDA;
+    --dark-color: #5993AF;
+    --green: #249A4B;
+    --darker-blue: #4183A4;
+}
+
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/img/wave-bg.png) no-repeat cover;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container {
+    padding: 0.8rem;
+    margin: 0.5rem;
+}
+
+#nav-bar {
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.8rem;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: var(--light-color);
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+#articulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#title {
+    font-size: 3rem;
+    line-height: 6rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+#articulos p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 200;
+    margin-bottom: 3.5rem;
+}
+
+#img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.image {
+    height: 300px;
+    width: 280px;
+    flex: 30%;
+    margin: 1.5rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+main p {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.8rem;
+}
+
+#info {
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8rem;
+   
+}
+
+.descriptions p i {
+    padding: 0.8rem;
+    color: var(--dark-color);
+} 
+
+
+.descriptions {
+    margin: 0.6rem;
+    width: 300px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 1.8rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+#precio {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-precio {
+    width: 280px;
+    display: flex;
+    height: 300px;
+    margin: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--light-color);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+
+#deco {
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+#subtitle {
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+
+#subtitle i {
+    padding: 1rem;
+    color: var(--green);
+}
+
+#video {
+    width: 70%;
+}  
+
+#newsletter {
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+}
+
+#newsletter h3 {
+    text-align: center;
+    width: 20%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 5px;
+}
+
+#newsletter p {
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+    padding: 0.8rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0.3rem;
+}
+
+#submit {
+    background-color: var(--darker-blue);
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: var(--dark-color);
+    transition: all .2s ease;
+}
+
+#email:focus {
+    outline: none;
+}
+
+#footer {
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.icons i {
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    color: var(--darker-blue);
+    transition: all .3s ease;
+    margin-bottom: 0.5rem;
+}
+
+.icons i:hover {
+    transform: scale(1.3,1.3);
+    color: var(--dark-color);
+}
+
+#footer p {
+    font-size: 0.8rem;
