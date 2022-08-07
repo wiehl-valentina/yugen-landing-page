@@ -1,3 +1,0 @@
-blue wave: #4284c2
-
-fondo clarito: #efecec
