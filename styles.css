@@ -18,39 +18,23 @@ html {
 }
 
 body {
-    background: url(assets/img/wave-bg.png) no-repeat cover;
-}
-
-#contenedor {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
     font-family: 'Poppins', sans-serif;
+
 }
 
 #header {
     display: flex;
-    height: 15vh;
-    width: 100vw;
     justify-content: space-between;
     align-items: center;
-}
-
-#logo-container {
-    padding: 0.8rem;
-    margin: 0.5rem;
-}
-
-#nav-bar {
-    display: flex;
-    margin: 0.5rem;
-    padding: 0.8rem;
+    padding: 1.8rem;
+    margin-bottom: 3rem;
 }
 
 .nav-link {
     font-size: 0.8rem;
-    padding: 1.5rem;
+    margin-left: 3.5rem;
     text-decoration: none;
     color: #000;
 }
@@ -65,7 +49,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
 }
 
 #articulos {
@@ -91,17 +74,16 @@ body {
 }
 
 #img-container {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5rem;
 }
 
-.image {
-    height: 300px;
-    width: 280px;
-    flex: 30%;
+.imagenes {
+    width: 18rem;
+    height: 20rem;
+    flex: 1;
     margin: 1.5rem;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -114,8 +96,28 @@ main p {
     line-height: 1.8rem;
 }
 
+#precio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-precio {
+    width: 18rem;
+    height: 20rem;
+    flex: 1;
+    display: flex;
+    margin: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--light-color);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2.5rem;
+}
+
 #info {
-    width: 60vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -126,7 +128,6 @@ main p {
     justify-content: center;
     align-items: center;
     margin-top: 1.8rem;
-   
 }
 
 .descriptions p i {
@@ -136,45 +137,20 @@ main p {
 
 
 .descriptions {
-    margin: 0.6rem;
-    width: 300px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
     font-weight: 300;
-    padding: 1.8rem;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
 }
 
-#precio {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.box-precio {
-    width: 280px;
-    display: flex;
-    height: 300px;
-    margin: 1.5rem;
-    border-radius: 5px;
-    border: 1px solid var(--light-color);
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    line-height: 2.5rem;
-}
-
 #deco {
-    width: 70vw;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 #subtitle {
@@ -188,18 +164,18 @@ main p {
 }
 
 #video {
-    width: 70%;
+    width: 45vw;
+    border-radius: 5px;
 }  
 
 #newsletter {
-    width: 80vw;
-    height: 30vh;
+    width: 45vw;
     display: flex;
     flex-direction: column;
     margin-top: 4.5rem;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.6rem;
+    margin-bottom: 3rem;
 }
 
 #newsletter h3 {
@@ -241,13 +217,13 @@ main p {
 }
 
 #footer {
-    height: 30rem;
+    height: 6rem;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 30%;
     flex-direction: column;
     text-align: center;
     align-items: center;
+
 }
 
 .social {
@@ -275,3 +251,4 @@ main p {
 
 #footer p {
     font-size: 0.8rem;
+}
