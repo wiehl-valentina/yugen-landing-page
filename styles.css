@@ -32,6 +32,10 @@ body {
     margin-bottom: 3rem;
 }
 
+#nav-bar ul {
+    list-style-type: none;
+}
+
 .nav-link {
     font-size: 0.8rem;
     margin-left: 3.5rem;
@@ -252,3 +256,50 @@ main p {
 #footer p {
     font-size: 0.8rem;
 }
+
+/* @media (max-width: 370px) {
+    ul li {
+        visibility: hidden;
+    }
+
+    #title {
+        margin-bottom: 0;
+    }
+
+    #articulos p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    #img-container {
+        flex-direction: column;
+    }
+
+    #main p {
+        font-size: 0.8rem;
+    }
+
+    #precio {
+        flex-direction: column;
+    }
+
+    .box-precio {
+        padding-top: 3rem;
+    }
+
+    #description-container {
+        flex-direction: column;
+    }
+
+    #descriptions p {
+        font-size: 8rem;
+    }
+
+    #subtitle {
+        font-size: 0.8rem;
+    }
+
+    #video {
+        width: 60vw;
+    }
+} */
