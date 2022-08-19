@@ -32,6 +32,10 @@ body {
     margin-bottom: 3rem;
 }
 
+#nav-bar {
+    position: fixed;
+}
+
 #nav-bar ul {
     list-style-type: none;
     display: flex;
